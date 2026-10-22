@@ -2,3 +2,5 @@ examples/
 dsh-tutorials/
 apps/
 build-path/
+node_modules/
+dist/

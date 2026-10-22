@@ -1,0 +1,16 @@
+{
+  "name": "build-it-own-scripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun build src/clean-projects.ts src/import-repos.ts --target=bun --outdir=dist",
+    "typecheck": "tsc --noEmit",
+    "clean:projects": "bun run src/clean-projects.ts",
+    "clean:projects:force": "bun run src/clean-projects.ts --confirm",
+    "import:repos": "bun run src/import-repos.ts"
+  },
+  "devDependencies": {
+    "bun-types": "^1.4.3",
+    "typescript": "^7.1.0-beta"
+  }
+}
