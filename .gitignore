@@ -5,3 +5,7 @@ build-path/
 node_modules/
 dist/
 scripts/dist/
+
+# Independent clones managed by spark-cli, not tracked by this repo
+tutorials-maker/
+references/
