@@ -4,3 +4,4 @@ apps/
 build-path/
 node_modules/
 dist/
+scripts/dist/
